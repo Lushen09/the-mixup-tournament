@@ -1,13 +1,88 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h2 {
+  margin-top: 0px;
+}
+
+/* Mobile styles */
+.closeBtn {
+  position: absolute;
+  right: 45px;
+  font-size: 60px;
+}
+
+.hero-component {
+  width: 100%;
+  height: 65vh;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-text-main {
+  color: beige;
+  position: relative;
+  bottom: 60%;
+  font-size: 25px;
+  text-align: center;
+}
+
+.hero-text-sub {
+  position: relative;
+  bottom: 60%;
+  color: beige;
+  margin-top: 0;
+  font-size: 15px;
+  text-align: center;
+}
+
+
+.menu-title {
+  font-size: 2rem;
+  margin: 20px 0 0 10px;
+  position: absolute;
+}
+
+.navButton {
+  font-size: 60px;
+  margin-left: 80%;
+  text-align: center;
+  width: 80px;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  /* top: 0; */
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  background-color: whitesmoke;
+}
+
+.overlay a {
+  padding: 6px;
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2.6rem;
+  margin-top: 5.5rem;
+  margin-left: 25%;
+  text-align: center;
+  width: 50%;
 }
