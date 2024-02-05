@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/the-mixup-tournament/static/css/main.d39c5638.css",
+    "main.js": "/the-mixup-tournament/static/js/main.9ea4e67a.js",
+    "static/media/MK1.png": "/the-mixup-tournament/static/media/MK1.dab78d0d1cf20593bf73.png",
+    "static/media/3d-night-sky-with-nebula.jpg": "/the-mixup-tournament/static/media/3d-night-sky-with-nebula.b5bab024e9069f4822ef.jpg",
+    "static/media/GGS.png": "/the-mixup-tournament/static/media/GGS.bf386ad2eeb2f740674c.png",
+    "static/media/tekken-8.jpg": "/the-mixup-tournament/static/media/tekken-8.70509b822b35f343c3da.jpg",
+    "static/media/crowd.jpg": "/the-mixup-tournament/static/media/crowd.c8b0724edd32d2ef34d5.jpg",
+    "static/media/SF6.jpg": "/the-mixup-tournament/static/media/SF6.b39e9ca9eab0ed5e643e.jpg",
+    "static/media/cb2022_KOF.jpg": "/the-mixup-tournament/static/media/cb2022_KOF.0b658edf005646075194.jpg",
+    "static/media/cb2022_cuddle.jpg": "/the-mixup-tournament/static/media/cb2022_cuddle.f4df9b4228cd2e12baa3.jpg",
+    "static/media/cb2022_poolplay.jpg": "/the-mixup-tournament/static/media/cb2022_poolplay.f18def8c453bc7c4292b.jpg",
+    "static/media/devil-jin.webp": "/the-mixup-tournament/static/media/devil-jin.4660cec50ae01f8b2e8b.webp",
+    "static/media/DBZF.jpg": "/the-mixup-tournament/static/media/DBZF.5806ca934f533436cea9.jpg",
+    "static/media/hotel.png": "/the-mixup-tournament/static/media/hotel.f7f447fb923a5556b10f.png",
+    "static/media/airplane.png": "/the-mixup-tournament/static/media/airplane.1a7d4b4f0ea830bd503a.png",
+    "static/media/location-pin.png": "/the-mixup-tournament/static/media/location-pin.64cdcb0ef97818161310.png",
+    "static/media/instagram.svg": "/the-mixup-tournament/static/media/instagram.448198b22019bf2f0b71355b8346c675.svg",
+    "static/media/youtube.svg": "/the-mixup-tournament/static/media/youtube.d9c581b245bcdba35329889148aa872f.svg",
+    "index.html": "/the-mixup-tournament/index.html",
+    "static/media/facebook.svg": "/the-mixup-tournament/static/media/facebook.4172f094907a6837b8f36d120b55601b.svg",
+    "static/media/twitter-x.svg": "/the-mixup-tournament/static/media/twitter-x.59f61548d71b77b5144f030f0b705a72.svg",
+    "main.d39c5638.css.map": "/the-mixup-tournament/static/css/main.d39c5638.css.map",
+    "main.9ea4e67a.js.map": "/the-mixup-tournament/static/js/main.9ea4e67a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d39c5638.css",
+    "static/js/main.9ea4e67a.js"
+  ]
+}
