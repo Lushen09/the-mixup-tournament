@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/the-mixup-tournament/static/css/main.d39c5638.css",
-    "main.js": "/the-mixup-tournament/static/js/main.9ea4e67a.js",
+    "main.js": "/the-mixup-tournament/static/js/main.5cf3bb17.js",
     "static/media/MK1.png": "/the-mixup-tournament/static/media/MK1.dab78d0d1cf20593bf73.png",
     "static/media/3d-night-sky-with-nebula.jpg": "/the-mixup-tournament/static/media/3d-night-sky-with-nebula.b5bab024e9069f4822ef.jpg",
     "static/media/GGS.png": "/the-mixup-tournament/static/media/GGS.bf386ad2eeb2f740674c.png",
@@ -22,10 +22,10 @@
     "static/media/facebook.svg": "/the-mixup-tournament/static/media/facebook.4172f094907a6837b8f36d120b55601b.svg",
     "static/media/twitter-x.svg": "/the-mixup-tournament/static/media/twitter-x.59f61548d71b77b5144f030f0b705a72.svg",
     "main.d39c5638.css.map": "/the-mixup-tournament/static/css/main.d39c5638.css.map",
-    "main.9ea4e67a.js.map": "/the-mixup-tournament/static/js/main.9ea4e67a.js.map"
+    "main.5cf3bb17.js.map": "/the-mixup-tournament/static/js/main.5cf3bb17.js.map"
   },
   "entrypoints": [
     "static/css/main.d39c5638.css",
-    "static/js/main.9ea4e67a.js"
+    "static/js/main.5cf3bb17.js"
   ]
 }
