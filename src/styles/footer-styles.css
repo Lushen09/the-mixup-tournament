@@ -1,0 +1,50 @@
+.icon-list {
+    list-style-type: none;
+    overflow: hidden;
+    padding-left: 25%;
+
+    li {
+        float: left;
+        padding: 10px 20px 0px 20px;
+    }
+}
+
+.footer {
+    background-color: white;
+    height: 100px;
+}
+
+.footer-content {
+    color: black;
+    padding: 25px 0px 0px 0px;
+}
+
+.footer-image {
+    height: 25px;
+}
+
+.footer-text {
+    font-weight: 600;
+    padding: 10px 0px 0px 0px;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        height: 150px;
+    }
+
+    .icon-list {
+        list-style-type: none;
+        overflow: hidden;
+        padding-left: 24%;
+    
+        li {
+            float: left;
+            padding: 10px 15px 0px 15px;
+        }
+    }
+
+    .footer-text {
+        padding-bottom: 20px;
+    }
+}

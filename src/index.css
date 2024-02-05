@@ -1,88 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&family=Yellowtail&family=Montserrat:wght@300&display=swap');
+
+
+/* regular styles */
+
 body {
-  margin: 0;
+  background-color: black !important;
 }
 
-h2 {
-  margin-top: 0px;
-}
-
-/* Mobile styles */
-.closeBtn {
-  position: absolute;
-  right: 45px;
-  font-size: 60px;
+.img-style {
+  width: 70%;
+  height: 100vh;
+  filter: brightness(70%)
 }
 
 .hero-component {
-  width: 100%;
-  height: 65vh;
+  height: 100vh;
+  background-image: url("../src/images/home-page/3d-night-sky-with-nebula.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.hero-image {
-  width: 100%;
-  height: 100%;
+.hero-text {
+  font-family: 'Raleway', sans-serif;
+  color: aliceblue;
+  text-align: center;
+  position: relative;
+  bottom: 380px;
+  
 }
 
 .hero-text-main {
-  color: beige;
-  position: relative;
-  bottom: 60%;
-  font-size: 25px;
-  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 25px;
+  animation-name: hero-animation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 .hero-text-sub {
-  position: relative;
-  bottom: 60%;
-  color: beige;
-  margin-top: 0;
-  font-size: 15px;
-  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  animation-name: hero-animation;
+  animation-duration: 2s;
+  animation-delay: 0.3s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.hero-text-sub1 {
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 25px;
+  animation-name: hero-animation;
+  animation-duration: 2s;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+
+.navbar {
+  padding: 15px 20px 15px 20px;
+}
+
+.offCanvas-black {
+  --bs-nav-link-color: black !important;
 }
 
 
-.menu-title {
-  font-size: 2rem;
-  margin: 20px 0 0 10px;
-  position: absolute;
+.bg-light {
+  transition: background-color 0.5s ease;
 }
 
-.navButton {
-  font-size: 60px;
-  margin-left: 80%;
-  text-align: center;
-  width: 80px;
+.bg-tranparent {
+  transition: background-color 0.5s ease;
 }
 
-.overlay {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  /* top: 0; */
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-  transition: 0.5s;
-  background-color: whitesmoke;
+/*Tablet styles */
+
+
+/* Mobile styles */
+@media (max-width: 576px) {
+  .img-style {
+    padding: 100px 0px 0px 0px;
+    height: 55vh;
+    width: 100%;
+  }
+
+  .hero-component {
+    height: 70vh;
+  }
+
+  .hero-text {
+    bottom: 200px;
+  }
+
+  .hero-text-main {
+    font-size: 35px;
+  }
+
+  .hero-text-sub, .hero-text-sub1 {
+    font-size: 25px;
+  }
+  
 }
 
-.overlay a {
-  padding: 6px;
-  text-decoration: none;
-  font-size: 1.7rem;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-}
+/* animations */
+@keyframes hero-animation {
+  from {
+    margin-left: -1500px;
+    opacity: 0;
+  }
 
-.overlay-content {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  gap: 2.6rem;
-  margin-top: 5.5rem;
-  margin-left: 25%;
-  text-align: center;
-  width: 50%;
+  to {
+    margin-left: 0px;
+    opacity: 1;
+  }
 }

@@ -1,0 +1,86 @@
+ .gallery {
+     padding: 70px 0px 50px 0px;
+ }
+
+ .gallery-column-style {
+     overflow: hidden;
+     padding: 0;
+ }
+
+ .gallery-heading {
+     color: white;
+     text-align: center;
+     font-family: 'Raleway', sans-serif;
+     padding: 0px 0px 50px 0px;
+
+     h1 {
+         font-size: 50px;
+     }
+ }
+
+ .gallery-image {
+     width: 400px;
+     height: 500px;
+     object-fit: cover;
+ }
+
+ .column-animation1 {
+     animation-name: slide-in;
+     animation-duration: 3s;
+     animation-fill-mode: forwards;
+     opacity: 0;
+ }
+
+ .column-animation2 {
+     animation-name: slide-in;
+     animation-duration: 3s;
+     animation-fill-mode: forwards;
+     animation-delay: 0.5s;
+     opacity: 0;
+ }
+
+ .column-animation3 {
+     animation-name: slide-in;
+     animation-duration: 3s;
+     animation-fill-mode: forwards;
+     animation-delay: 1s;
+     opacity: 0;
+ }
+
+ @media (max-width: 576px) {
+     .gallery {
+         padding-top: 60px;
+     }
+
+     .gallery-column-style {
+         padding: 0px 0px 10px 0px;
+     }
+
+     .gallery-image {
+         width: 80%;
+         height: 300px;
+     }
+
+     .gallery-heading {
+         h1 {
+             font-size: 35px;
+         }
+     }
+
+     #row {
+         text-align: center;
+     }
+ }
+
+ @keyframes slide-in {
+     from {
+         position: relative;
+         transform: translate(0, 50%);
+         opacity: 0;
+     }
+
+     to {
+         transform: translate(0, 0);
+         opacity: 1;
+     }
+ }

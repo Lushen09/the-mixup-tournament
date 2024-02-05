@@ -1,0 +1,30 @@
+b {
+    color: rgb(190, 36, 36);
+}
+
+.about {
+    padding: 100px 0px 50px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about-heading {
+    color: white;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    padding: 0px 0px 50px 0px;
+
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .about {
+        font-size: 15px;
+    }
+    .about-heading {
+        h1 {
+            font-size: 35px;
+        }
+    }
+}

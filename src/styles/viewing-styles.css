@@ -1,0 +1,41 @@
+h4 {
+    color: white;
+    padding: 30px 0px 0px 0px;
+}
+
+.logo-image {
+    height: 100px;
+    width: 150px;
+    color: rgb(190, 36, 36);
+   
+}
+
+.schedule-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    padding: 100px 0px 40px 0px;
+    text-align: center;
+}
+
+.viewing {
+    padding: 70px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.viewing-heading {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    padding: 25px 0px 25px 0px;
+    text-align: center;
+}
+
+.viewing-text {
+    color: white;
+    padding: 30px 0px 100px 0px;
+}
+
+@media (max-width: 768px) {
+    .viewing-heading, .schedule-heading  {
+        font-size: 35px;
+    }
+}

@@ -1,21 +1,18 @@
-import HeroImg from "../images/home-page/hero-img.jpg"
+import DevilJin from "../images/home-page/devil-jin.webp"
+
 
 const Hero = () => {
     return (
-        <div className="hero-component">
-            <img 
-                src={HeroImg}
+        <div className="hero-component" style={{textAlign: "center"}}>
+            <img
+                src={DevilJin}
                 alt="hero"
-                className="hero-image"
+                className="img-style"
             />
-            
-            <div className="hero-text-main">
-                <h1>THE MIXUP 2024</h1>
-            </div>
-            
-            <div className="hero-text-sub">
-                <h2>January 15-17</h2> 
-                <h2>Manchester UK</h2>
+            <div className="hero-text">
+                <div className="hero-text-main"><p>The Mixup 2024</p></div>
+                <div className="hero-text-sub"><p>Manchester, UK</p></div>
+                <div className="hero-text-sub1"><p>17th January</p></div>
             </div>
         </div>
     )
