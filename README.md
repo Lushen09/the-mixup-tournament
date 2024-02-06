@@ -5,5 +5,8 @@ Live Demo can be found here: https://Lushen09.github.io/the-mixup-tournament
 Built with:
 
 🟢 React
+
 🟢 Bootstrap
+
 🟢 Vanilla CSS
+
