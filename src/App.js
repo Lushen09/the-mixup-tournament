@@ -9,9 +9,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <Routes>
-          <Route index path="/" element={<Home />} />
-        </Routes>
+        <Home />
+        {/* // <Routes>
+        //   <Route index path="/" element={<Home />} />
+        // </Routes> */}
       </BrowserRouter>
     </div>
   );
